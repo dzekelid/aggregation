@@ -1,5 +1,4 @@
 ---
----
 name: 46elks
 description: 46elks is a cloud communications platform, which makes it very easy to
   integrate Voice, SMS amp; MMS into your applications. No more high barriers, just
@@ -45,6 +44,4 @@ maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
   email: info@apievangelist.com
-...
-
 ---
