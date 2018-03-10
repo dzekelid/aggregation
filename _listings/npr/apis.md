@@ -61,7 +61,7 @@ apis:
   tags: Aggregation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/aggregation/master/_listings/npr/listening-v2-aggregation-aggid-recommendations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/aggregation/master/_listings/npr/stationfinder-v3-stations-stationid-get.md
 x-common:
 - type: x-base
   url: http://api.npr.org/
