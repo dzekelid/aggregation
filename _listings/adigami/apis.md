@@ -15,8 +15,8 @@ tags:
 - API LIfeycle
 - Analysis
 - Aggregation
-created: "2018-02-24"
-modified: "2018-02-24"
+created: "2018-03-10"
+modified: "2018-03-10"
 url: https://raw.githubusercontent.com/streamdata-gallery/aggregation/master/_listings/adigami/apis.yaml
 specificationVersion: "0.14"
 apis: []
