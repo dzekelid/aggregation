@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/akamai/events-v2-accountid-events-eventid-trafficdata-hdsll-egressbw-get.md
-- name: Akamai API Report Security Event Aggregation
-  description: Report Security Event Aggregation
+- name: Akamai API Report DNS Activities Totals
+  description: Report DNS Activities Totals
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Aggregation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/akamai/etp-report-v1-configs-configid-threat-events-aggregate-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/akamai/etp-report-v1-configs-configid-dns-activities-aggregate-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
