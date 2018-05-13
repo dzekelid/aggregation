@@ -29,7 +29,24 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-fit/userid-dataset-aggregate-post.md
+- name: Google Fit API Get Aggregate Data
+  description: Aggregates data of a certain type or stream into buckets divided by
+    a given type of boundary. Multiple data sets of multiple types and from multiple
+    sources can be aggreated into exactly one bucket type per request.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-fit.jpg
+  humanURL: https://developers.google.com/fit/overview
+  baseURL: http:://www.googleapis.com//fitness/v1/users
+  tags: Aggregation
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-fit/userid-dataset-aggregate-post.md
 x-common:
+- type: x-authentication
+  url: https://developers.google.com/fit/android/get-api-key
+- type: x-getting-started
+  url: https://developers.google.com/fit/rest/v1/get-started
+- type: x-website
+  url: https://developers.google.com/fit/overview
 - type: x-authentication
   url: https://developers.google.com/fit/android/get-api-key
 - type: x-getting-started
