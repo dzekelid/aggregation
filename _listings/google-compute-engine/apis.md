@@ -26,9 +26,9 @@ apis:
   tags: Aggregation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/project-aggregated-instances-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/project-aggregated-machinetypes-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/project-aggregated-instances-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/project-aggregated-machinetypes-get-postman.md
 x-common:
 - type: x-code
   url: https://cloud.google.com/compute/docs/api/libraries
