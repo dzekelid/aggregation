@@ -29,17 +29,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/project-aggregated-targetvpngateways-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/project-aggregated-targetvpngateways-get-postman.md
-- name: Google Compute Engine API Get Disk Type
-  description: Retrieves an aggregated list of disk types.
+- name: Google Compute Engine API Get Disks
+  description: Retrieves an aggregated list of persistent disks.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
   baseURL: http:://www.googleapis.com//compute/v1/projects
   tags: Aggregation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/project-aggregated-disktypes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/project-aggregated-disks-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/project-aggregated-disktypes-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/project-aggregated-disks-get-postman.md
 x-common:
 - type: x-code
   url: https://cloud.google.com/compute/docs/api/libraries
