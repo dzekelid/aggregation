@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Fitness
-  description: Stores and accesses user data in the fitness store from apps on any
-    platform.
+  title: Google Fit API Get Aggregate Data
+  description: Aggregates data of a certain type or stream into buckets divided by
+    a given type of boundary. Multiple data sets of multiple types and from multiple
+    sources can be aggreated into exactly one bucket type per request.
   contact:
     name: Google
     url: https://google.com
