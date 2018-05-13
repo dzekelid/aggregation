@@ -29,17 +29,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/project-aggregated-targetvpngateways-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/project-aggregated-targetvpngateways-get-postman.md
-- name: Google Compute Engine API Get Autoscalers
-  description: Retrieves an aggregated list of autoscalers.
+- name: Google Compute Engine API Get Backend services
+  description: Retrieves the list of all BackendService resources, regional and global,
+    available to the specified project.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
   baseURL: http:://www.googleapis.com//compute/v1/projects
   tags: Aggregation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/project-aggregated-autoscalers-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/project-aggregated-backendservices-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/project-aggregated-autoscalers-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/project-aggregated-backendservices-get-postman.md
 x-common:
 - type: x-code
   url: https://cloud.google.com/compute/docs/api/libraries
