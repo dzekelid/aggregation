@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Compute Engine
-  description: Creates and runs virtual machines on Google Cloud Platform.
+  title: Google Compute Engine API Get Disks
+  description: Retrieves an aggregated list of persistent disks.
   contact:
     name: Google
     url: https://google.com
