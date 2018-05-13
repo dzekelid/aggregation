@@ -17,9 +17,9 @@ tags:
 - Getting Started
 - Federal Government
 - Broadcasting
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/aggregation/master/_listings/npr/apis.yaml
+created: "2018-05-12"
+modified: "2018-05-12"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/npr/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: NPR
@@ -30,7 +30,9 @@ apis:
   tags: Aggregation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/aggregation/master/_listings/npr/listening-v2-aggregation-aggid-recommendations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/npr/listening-v2-aggregation-aggid-recommendations-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/npr/listening-v2-aggregation-aggid-recommendations-get-postman.md
 x-common:
 - type: x-base
   url: http://api.npr.org/
