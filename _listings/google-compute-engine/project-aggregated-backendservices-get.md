@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Compute Engine
-  description: Creates and runs virtual machines on Google Cloud Platform.
+  title: Google Compute Engine API Get Backend services
+  description: Retrieves the list of all BackendService resources, regional and global,
+    available to the specified project.
   contact:
     name: Google
     url: https://google.com
