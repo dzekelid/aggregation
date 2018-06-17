@@ -1,5 +1,6 @@
 ---
 name: Google Fit
+x-slug: google-fit
 description: Google Fit is an open ecosystem that allows developers to upload fitness
   data to a central repository where users can access their data from different devices
   and apps in one location. Fitness apps can store data from any wearable or sensor.
@@ -7,46 +8,40 @@ description: Google Fit is an open ecosystem that allows developers to upload fi
   when they upgrade their fitness devices.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-fit.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Wearables
-- Stack Network
-- Google APIs
-- Fitness
-created: "2018-05-12"
-modified: "2018-05-12"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-fit/apis.yaml
+x-alexaRank: "0"
+tags: Aggregation
+created: "2018-06-17"
+modified: "2018-06-17"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-fit/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Fit API
-  description: Google Fit is an open ecosystem that allows developers to upload fitness
-    data to a central repository where users can access their data from different
-    devices and apps in one location
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-fit.jpg
-  humanURL: ""
-  baseURL: ://www.googleapis.com//fitness/v1/users
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-fit/userid-dataset-aggregate-post.md
 - name: Google Fit API Get Aggregate Data
+  x-api-slug: google-fit-api
   description: Aggregates data of a certain type or stream into buckets divided by
     a given type of boundary. Multiple data sets of multiple types and from multiple
     sources can be aggreated into exactly one bucket type per request.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-fit.jpg
   humanURL: https://developers.google.com/fit/overview
-  baseURL: http:://www.googleapis.com//fitness/v1/users
+  baseURL: ://www.googleapis.com//fitness/v1/users//{userId}/dataset:aggregate
   tags: Aggregation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-fit/userid-dataset-aggregate-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-fit/useriddatasetaggregate-post-openapi.md
+- name: Google Fit API
+  x-api-slug: google-fit-api
+  description: Google Fit is an open ecosystem that allows developers to upload fitness
+    data to a central repository where users can access their data from different
+    devices and apps in one location. Fitness apps can store data from any wearable
+    or sensor. Fitness apps can access data created by any app. Users fitness data
+    is persisted when they upgrade their fitness devices.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-fit.jpg
+  humanURL: https://developers.google.com/fit/overview
+  baseURL: ://www.googleapis.com//fitness/v1/users
+  tags: Aggregation
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-fit/openapi.md
 x-common:
-- type: x-authentication
-  url: https://developers.google.com/fit/android/get-api-key
-- type: x-getting-started
-  url: https://developers.google.com/fit/rest/v1/get-started
-- type: x-website
-  url: https://developers.google.com/fit/overview
 - type: x-authentication
   url: https://developers.google.com/fit/android/get-api-key
 - type: x-getting-started
