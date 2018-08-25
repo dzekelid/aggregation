@@ -11,18 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/46elks/apis.md
 specificationVersion: "0.14"
-apis:
-- name: 46elks API
-  x-api-slug: 46elks-api
-  description: Adding SMS and Voice to your application or service should be easy.
-    Phone calls, SMS & MMS in one easy API. For developers, built by developers.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/289-46elks.jpg
-  humanURL: http://46elks.com/
-  baseURL: https:///
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/46elks/openapi.md
+apis: []
 x-common:
 - type: x-api-json--authoritative
   url: http://pi.thure.org/apis.json

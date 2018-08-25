@@ -11,18 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/cloudrail/apis.md
 specificationVersion: "0.14"
-apis:
-- name: CloudRail
-  x-api-slug: cloudrail
-  description: 'API Integration Solution for Developers: 10x Faster ??? Less Maintenance
-    ??? No Vendor-Lock-In. Use the same clean interface across multiple providers.'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11420-cloudrail.jpg
-  humanURL: https://cloudrail.com/
-  baseURL: https:///
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/cloudrail/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://cloudrail.com/blog/

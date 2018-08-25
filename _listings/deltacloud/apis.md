@@ -10,17 +10,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/deltacloud/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Deltacloud
-  x-api-slug: deltacloud
-  description: Home page of The Apache Software Foundation
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/37-deltacloud.jpg
-  humanURL: http://deltacloud.apache.org/
-  baseURL: https:///
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/deltacloud/openapi.md
+apis: []
 x-common:
 - type: x-twitter
   url: https://twitter.com/pearsonplc

@@ -17,25 +17,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/netlify/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Netlify
-  x-api-slug: netlify
-  description: Our mission is simple. We want to take modern static websites and apps
-    mainstream. Because the current web is a mess. Seriously though. Every week we
-    go to Hackernews and follow a broken link. 79% of all Wordpress sites are vulnerable
-    to known exploits, which alone represents 20% of all website. The emergence of
-    mobile means a lot of slow loading sites with towering bounce rates and loss of
-    business to follow. We should do better. We must actually. Because we can. Static
-    websites have always been faster, safer, simpler and cheaper. It&rsquo;s just
-    that browsers and shared hosting services weren&rsquo;t good enough, so there
-    were too many compromises.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/netlify-logo.jpg
-  humanURL: https://www.netlify.com
-  baseURL: https:///
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/netlify/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: https://www.netlify.com/blog/

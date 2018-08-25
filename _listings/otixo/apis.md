@@ -13,20 +13,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/otixo/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Otixo
-  x-api-slug: otixo
-  description: Otixo brings team collaboration and communication into one place, so
-    you can get more work done.     Otixo enables you to connect all your Cloud Drives
-    and to collaborate with your Team. Get access to more than 30 Cloud Drives, such
-    as Google Drive, Bo...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1695-otixo.jpg
-  humanURL: http://otixo.com/
-  baseURL: https:///
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/otixo/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.otixo.com/

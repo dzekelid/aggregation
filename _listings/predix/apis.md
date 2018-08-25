@@ -12,97 +12,93 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Predix Access Control
-  x-api-slug: predix-access-control
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://predix-acs.run.aws-usw02-pr.ice.predix.io//
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
-- name: Predix Analytics Catalog
-  x-api-slug: predix-analytics-catalog
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
-- name: Predix Analytics Framework
-  x-api-slug: predix-analytics-framework
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
-- name: Predix Analytics Runtime
-  x-api-slug: predix-analytics-runtime
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
-- name: Predix AppHub ARCS
-  x-api-slug: predix-apphub-arcs
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://predix-apphub-arcs-prod.run.aws-usw02-pr.ice.predix.io//api
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
-- name: Predix Assets
-  x-api-slug: predix-assets
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
-- name: Predix BlockChain
-  x-api-slug: predix-blockchain
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
-- name: Predix Blockchain Data Integrity
-  x-api-slug: predix-blockchain-data-integrity
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://bcdi-proxy-service.run.aws-usw02-pr.ice.predix.io//
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
-- name: Predix Data Services
-  x-api-slug: predix-data-services
-  description: ""
+- name: Data Services - Get all available aggregations
+  x-api-slug: v1aggregations-get
+  description: |-
+    Return all supported aggregations.Response JSON (Status 200){
+      "results": [
+        {
+          "name": "max",
+          "type": "Maximum",
+          "description": "Returns the maximum value data point for the time range"
+        },
+        {
+          "name": "trendmode",
+          "type": "Trend Mode",
+          "description": "Returns the maximum and minimum value data point for the time range"
+        },
+        {
+          "name": "count",
+          "type": "Count",
+          "description": "Returns the number of data points"
+        },
+        {
+          "name": "scale",
+          "type": "Scale",
+          "description": "Scales each data point by a factor"
+        },
+        {
+          "name": "interpolate",
+          "type": "Interpolate",
+          "description": "Does linear interpolation for the chosen window"
+        },
+        {
+          "name": "sum",
+          "type": "Sum",
+          "description": "Adds the data points together"
+        },
+        {
+          "name": "diff",
+          "type": "Difference",
+          "description": "Returns the difference between successive data points"
+        },
+        {
+          "name": "gaps",
+          "type": "Gaps",
+          "description": "Marks gaps in data according to sampling rate with a null data point"
+        },
+        {
+          "name": "sampler",
+          "type": "Sampler",
+          "description": "Returns the sampling rate of change for the data points"
+        },
+        {
+          "name": "div",
+          "type": "Divide",
+          "description": "Divides each data point by a divisor"
+        },
+        {
+          "name": "min",
+          "type": "Minimum",
+          "description": "Returns the minimum value data point for the time range"
+        },
+        {
+          "name": "avg",
+          "type": "Average",
+          "description": "Returns the average of the data point set"
+        },
+        {
+          "name": "least_squares",
+          "type": "Least Squares",
+          "description": "Returns a best fit line through the data points using the least squares algorithm"
+        },
+        {
+          "name": "percentile",
+          "type": "Percentile",
+          "description": "Returns the percentile of the data range"
+        },
+        {
+          "name": "dev",
+          "type": "Standard Deviation",
+          "description": "Returns the standard deviation of the time series"
+        },
+        {
+          "name": "rate",
+          "type": "Rate",
+          "description": "Returns the rate of change for the data points"
+        }
+      ]
+    }
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https://time-series-service-doc.grc-apps.svc.ice.ge.com//
@@ -112,9 +108,93 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/v1aggregations-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/v1aggregations-get-openapi.md
-- name: Predix Data Services
-  x-api-slug: predix-data-services
-  description: ""
+- name: Data Services - Get all available aggregations
+  x-api-slug: v1aggregations-get
+  description: |-
+    Return all supported aggregations.Response JSON (Status 200){
+      "results": [
+        {
+          "name": "max",
+          "type": "Maximum",
+          "description": "Returns the maximum value data point for the time range"
+        },
+        {
+          "name": "trendmode",
+          "type": "Trend Mode",
+          "description": "Returns the maximum and minimum value data point for the time range"
+        },
+        {
+          "name": "count",
+          "type": "Count",
+          "description": "Returns the number of data points"
+        },
+        {
+          "name": "scale",
+          "type": "Scale",
+          "description": "Scales each data point by a factor"
+        },
+        {
+          "name": "interpolate",
+          "type": "Interpolate",
+          "description": "Does linear interpolation for the chosen window"
+        },
+        {
+          "name": "sum",
+          "type": "Sum",
+          "description": "Adds the data points together"
+        },
+        {
+          "name": "diff",
+          "type": "Difference",
+          "description": "Returns the difference between successive data points"
+        },
+        {
+          "name": "gaps",
+          "type": "Gaps",
+          "description": "Marks gaps in data according to sampling rate with a null data point"
+        },
+        {
+          "name": "sampler",
+          "type": "Sampler",
+          "description": "Returns the sampling rate of change for the data points"
+        },
+        {
+          "name": "div",
+          "type": "Divide",
+          "description": "Divides each data point by a divisor"
+        },
+        {
+          "name": "min",
+          "type": "Minimum",
+          "description": "Returns the minimum value data point for the time range"
+        },
+        {
+          "name": "avg",
+          "type": "Average",
+          "description": "Returns the average of the data point set"
+        },
+        {
+          "name": "least_squares",
+          "type": "Least Squares",
+          "description": "Returns a best fit line through the data points using the least squares algorithm"
+        },
+        {
+          "name": "percentile",
+          "type": "Percentile",
+          "description": "Returns the percentile of the data range"
+        },
+        {
+          "name": "dev",
+          "type": "Standard Deviation",
+          "description": "Returns the standard deviation of the time series"
+        },
+        {
+          "name": "rate",
+          "type": "Rate",
+          "description": "Returns the rate of change for the data points"
+        }
+      ]
+    }
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
   humanURL: https://www.predix.io
   baseURL: https://time-series-service-doc.grc-apps.svc.ice.ge.com//
@@ -124,162 +204,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/v1aggregations-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/v1aggregations-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/v1aggregations-get-openapi.md
-- name: Predix Data Services
-  x-api-slug: predix-data-services
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://time-series-service-doc.grc-apps.svc.ice.ge.com//
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
-- name: Predix Dynamic Mapping
-  x-api-slug: predix-dynamic-mapping
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
-- name: Predix Dynamic Time Warping
-  x-api-slug: predix-dynamic-time-warping
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////v1
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
-- name: Predix Enterprise Connect
-  x-api-slug: predix-enterprise-connect
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://ec-predix-service-osaka.run.aws-usw02-pr.ice.predix.io//v1
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
-- name: Predix Event Audit Trail
-  x-api-slug: predix-event-audit-trail
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://event-audit-trail.run.aws-usw02-pr.ice.predix.io//
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
-- name: Predix Fingerprint of Things Object Tagging Service
-  x-api-slug: predix-fingerprint-of-things-object-tagging-service
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://fingerprint-of-things-ga1-dast.run.aws-usw02-pr.ice.predix.io//
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
-- name: Predix Insights
-  x-api-slug: predix-insights
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://insights-api.data-services.predix.io//api/v1
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
-- name: Predix Intelligent Mapping
-  x-api-slug: predix-intelligent-mapping
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
-- name: Predix Notification Service
-  x-api-slug: predix-notification-service
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://ev-notification-service.run.aws-usw02-pr.ice.predix.io//
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
-- name: Predix Nurego
-  x-api-slug: predix-nurego
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://api.nurego.com//
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
-- name: Predix SAS ESP Predix Service
-  x-api-slug: predix-sas-esp-predix-service
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://sas-proxy.run.aws-usw02-pr.ice.predix.io//
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
-- name: Predix Tenant Management
-  x-api-slug: predix-tenant-management
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://predix-tms.run.aws-usw02-pr.ice.predix.io//
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
-- name: Predix ThetaRay Predix Service
-  x-api-slug: predix-thetaray-predix-service
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https://thetaray-anomaly-service.run.aws-usw02-pr.ice.predix.io//
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
-- name: Predix Views
-  x-api-slug: predix-views
-  description: Predix (IoT PaaS) helps you develop apps that connect people with industrial
-    machines through analytics and data for better business outcomes.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
-  humanURL: https://www.predix.io
-  baseURL: https:////v1
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/predix/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://predicthq.api.gallery.streamdata.io

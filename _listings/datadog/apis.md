@@ -10,17 +10,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/datadog/apis.md
 specificationVersion: "0.14"
-apis:
-- name: DataDog API
-  x-api-slug: datadog-api
-  description: See inside any stack, any app, at any scale, anywhere.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
-  humanURL: https://www.datadoghq.com/
-  baseURL: https:///api/v1/
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/datadog/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://dataatwork.api.gallery.streamdata.io

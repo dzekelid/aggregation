@@ -15,9 +15,9 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/apis.md
 specificationVersion: "0.14"
 apis:
-- name: IDX Broker
-  x-api-slug: idx-broker
-  description: idx-broker-api-calls-in-version-1-4-0required-environment-variable-url-environment-variable-for-request-headers-environment-variable-partner-key-client-account-with-at-least-one-featured-listingtests-are-in-this-order-as-variables-such-as-listing-id-and-approved-mls-are-passed-to-subsequent-api-calls-
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Agents
+  x-api-slug: partnersaggregatedagents-get
+  description: Get a list of all agents for your clients.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
   humanURL: http://www.idxbroker.com
   baseURL: https://example.com//
@@ -27,249 +27,109 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-- name: IDX Broker
-  x-api-slug: idx-broker
-  description: idx-broker-api-calls-in-version-1-4-0required-environment-variable-url-environment-variable-for-request-headers-environment-variable-partner-key-client-account-with-at-least-one-featured-listingtests-are-in-this-order-as-variables-such-as-listing-id-and-approved-mls-are-passed-to-subsequent-api-calls-
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Featured
+  x-api-slug: partnersaggregatedfeatured-get
+  description: Get a list of featured MLS properties.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
   humanURL: http://www.idxbroker.com
   baseURL: https://example.com//
   tags: Real Estate, API Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-- name: IDX Broker
-  x-api-slug: idx-broker
-  description: idx-broker-api-calls-in-version-1-4-0required-environment-variable-url-environment-variable-for-request-headers-environment-variable-partner-key-client-account-with-at-least-one-featured-listingtests-are-in-this-order-as-variables-such-as-listing-id-and-approved-mls-are-passed-to-subsequent-api-calls-
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Leads
+  x-api-slug: partnersaggregatedleads-get
+  description: Get a list of all leads.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
   humanURL: http://www.idxbroker.com
   baseURL: https://example.com//
   tags: Real Estate, API Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-- name: IDX Broker
-  x-api-slug: idx-broker
-  description: idx-broker-api-calls-in-version-1-4-0required-environment-variable-url-environment-variable-for-request-headers-environment-variable-partner-key-client-account-with-at-least-one-featured-listingtests-are-in-this-order-as-variables-such-as-listing-id-and-approved-mls-are-passed-to-subsequent-api-calls-
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Lead Traffic
+  x-api-slug: partnersaggregatedleadtraffic-get
+  description: Get a list of all leads traffic history.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
   humanURL: http://www.idxbroker.com
   baseURL: https://example.com//
   tags: Real Estate, API Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
-- name: IDX Broker
-  x-api-slug: idx-broker
-  description: idx-broker-api-calls-in-version-1-4-0required-environment-variable-url-environment-variable-for-request-headers-environment-variable-partner-key-client-account-with-at-least-one-featured-listingtests-are-in-this-order-as-variables-such-as-listing-id-and-approved-mls-are-passed-to-subsequent-api-calls-
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Listing Status
+  x-api-slug: partnersaggregatedlistingstatus-get
+  description: This method gives the status for all MLS listings (not supplemental)
+    broken down by client account ID. This includes sold/pending listings with an
+    unknown status which are not usually returned by sold/pending api methods. This
+    is helpful if you need to know when previously gathered featured properties have
+    left the market.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
   humanURL: http://www.idxbroker.com
   baseURL: https://example.com//
   tags: Real Estate, API Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-openapi.md
-- name: IDX Broker
-  x-api-slug: idx-broker
-  description: idx-broker-api-calls-in-version-1-4-0required-environment-variable-url-environment-variable-for-request-headers-environment-variable-partner-key-client-account-with-at-least-one-featured-listingtests-are-in-this-order-as-variables-such-as-listing-id-and-approved-mls-are-passed-to-subsequent-api-calls-
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Properties
+  x-api-slug: partnersaggregatedproperties-get
+  description: Get a list of all lead saved properties.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
   humanURL: http://www.idxbroker.com
   baseURL: https://example.com//
   tags: Real Estate, API Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-openapi.md
-- name: IDX Broker
-  x-api-slug: idx-broker
-  description: idx-broker-api-calls-in-version-1-4-0required-environment-variable-url-environment-variable-for-request-headers-environment-variable-partner-key-client-account-with-at-least-one-featured-listingtests-are-in-this-order-as-variables-such-as-listing-id-and-approved-mls-are-passed-to-subsequent-api-calls-
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Searches
+  x-api-slug: partnersaggregatedsearches-get
+  description: Get a list of all lead saved searches.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
   humanURL: http://www.idxbroker.com
   baseURL: https://example.com//
   tags: Real Estate, API Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-openapi.md
-- name: IDX Broker
-  x-api-slug: idx-broker
-  description: idx-broker-api-calls-in-version-1-4-0required-environment-variable-url-environment-variable-for-request-headers-environment-variable-partner-key-client-account-with-at-least-one-featured-listingtests-are-in-this-order-as-variables-such-as-listing-id-and-approved-mls-are-passed-to-subsequent-api-calls-
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Sold Pending
+  x-api-slug: partnersaggregatedsoldpending-get
+  description: Get a list of sold/pending MLS properties.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
   humanURL: http://www.idxbroker.com
   baseURL: https://example.com//
   tags: Real Estate, API Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-openapi.md
-- name: IDX Broker
-  x-api-slug: idx-broker
-  description: idx-broker-api-calls-in-version-1-4-0required-environment-variable-url-environment-variable-for-request-headers-environment-variable-partner-key-client-account-with-at-least-one-featured-listingtests-are-in-this-order-as-variables-such-as-listing-id-and-approved-mls-are-passed-to-subsequent-api-calls-
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Supplemental
+  x-api-slug: partnersaggregatedsupplemental-get
+  description: Get a list of supplemental (non-MLS) properties.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
   humanURL: http://www.idxbroker.com
   baseURL: https://example.com//
   tags: Real Estate, API Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsupplemental-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsupplemental-get-openapi.md
-- name: IDX Broker
-  x-api-slug: idx-broker
-  description: idx-broker-api-calls-in-version-1-4-0required-environment-variable-url-environment-variable-for-request-headers-environment-variable-partner-key-client-account-with-at-least-one-featured-listingtests-are-in-this-order-as-variables-such-as-listing-id-and-approved-mls-are-passed-to-subsequent-api-calls-
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Agents
+  x-api-slug: partnersaggregatedagents-get
+  description: Get a list of all agents for your clients.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
   humanURL: http://www.idxbroker.com
   baseURL: https://example.com//
@@ -279,494 +139,106 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsupplemental-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsupplemental-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-- name: IDX Broker
-  x-api-slug: idx-broker
-  description: idx-broker-api-calls-in-version-1-4-0required-environment-variable-url-environment-variable-for-request-headers-environment-variable-partner-key-client-account-with-at-least-one-featured-listingtests-are-in-this-order-as-variables-such-as-listing-id-and-approved-mls-are-passed-to-subsequent-api-calls-
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Featured
+  x-api-slug: partnersaggregatedfeatured-get
+  description: Get a list of featured MLS properties.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
   humanURL: http://www.idxbroker.com
   baseURL: https://example.com//
   tags: Real Estate, API Provider, Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsupplemental-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsupplemental-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-- name: IDX Broker
-  x-api-slug: idx-broker
-  description: idx-broker-api-calls-in-version-1-4-0required-environment-variable-url-environment-variable-for-request-headers-environment-variable-partner-key-client-account-with-at-least-one-featured-listingtests-are-in-this-order-as-variables-such-as-listing-id-and-approved-mls-are-passed-to-subsequent-api-calls-
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Leads
+  x-api-slug: partnersaggregatedleads-get
+  description: Get a list of all leads.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
   humanURL: http://www.idxbroker.com
   baseURL: https://example.com//
   tags: Real Estate, API Provider, Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsupplemental-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsupplemental-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-- name: IDX Broker
-  x-api-slug: idx-broker
-  description: idx-broker-api-calls-in-version-1-4-0required-environment-variable-url-environment-variable-for-request-headers-environment-variable-partner-key-client-account-with-at-least-one-featured-listingtests-are-in-this-order-as-variables-such-as-listing-id-and-approved-mls-are-passed-to-subsequent-api-calls-
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Lead Traffic
+  x-api-slug: partnersaggregatedleadtraffic-get
+  description: Get a list of all leads traffic history.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
   humanURL: http://www.idxbroker.com
   baseURL: https://example.com//
   tags: Real Estate, API Provider, Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsupplemental-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsupplemental-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
-- name: IDX Broker
-  x-api-slug: idx-broker
-  description: idx-broker-api-calls-in-version-1-4-0required-environment-variable-url-environment-variable-for-request-headers-environment-variable-partner-key-client-account-with-at-least-one-featured-listingtests-are-in-this-order-as-variables-such-as-listing-id-and-approved-mls-are-passed-to-subsequent-api-calls-
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Listing Status
+  x-api-slug: partnersaggregatedlistingstatus-get
+  description: This method gives the status for all MLS listings (not supplemental)
+    broken down by client account ID. This includes sold/pending listings with an
+    unknown status which are not usually returned by sold/pending api methods. This
+    is helpful if you need to know when previously gathered featured properties have
+    left the market.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
   humanURL: http://www.idxbroker.com
   baseURL: https://example.com//
   tags: Real Estate, API Provider, Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsupplemental-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsupplemental-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-openapi.md
-- name: IDX Broker
-  x-api-slug: idx-broker
-  description: idx-broker-api-calls-in-version-1-4-0required-environment-variable-url-environment-variable-for-request-headers-environment-variable-partner-key-client-account-with-at-least-one-featured-listingtests-are-in-this-order-as-variables-such-as-listing-id-and-approved-mls-are-passed-to-subsequent-api-calls-
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Properties
+  x-api-slug: partnersaggregatedproperties-get
+  description: Get a list of all lead saved properties.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
   humanURL: http://www.idxbroker.com
   baseURL: https://example.com//
   tags: Real Estate, API Provider, Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsupplemental-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsupplemental-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-openapi.md
-- name: IDX Broker
-  x-api-slug: idx-broker
-  description: idx-broker-api-calls-in-version-1-4-0required-environment-variable-url-environment-variable-for-request-headers-environment-variable-partner-key-client-account-with-at-least-one-featured-listingtests-are-in-this-order-as-variables-such-as-listing-id-and-approved-mls-are-passed-to-subsequent-api-calls-
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Searches
+  x-api-slug: partnersaggregatedsearches-get
+  description: Get a list of all lead saved searches.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
   humanURL: http://www.idxbroker.com
   baseURL: https://example.com//
   tags: Real Estate, API Provider, Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsupplemental-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsupplemental-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-openapi.md
-- name: IDX Broker
-  x-api-slug: idx-broker
-  description: idx-broker-api-calls-in-version-1-4-0required-environment-variable-url-environment-variable-for-request-headers-environment-variable-partner-key-client-account-with-at-least-one-featured-listingtests-are-in-this-order-as-variables-such-as-listing-id-and-approved-mls-are-passed-to-subsequent-api-calls-
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Sold Pending
+  x-api-slug: partnersaggregatedsoldpending-get
+  description: Get a list of sold/pending MLS properties.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
   humanURL: http://www.idxbroker.com
   baseURL: https://example.com//
   tags: Real Estate, API Provider, Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsupplemental-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsupplemental-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-openapi.md
-- name: IDX Broker
-  x-api-slug: idx-broker
-  description: idx-broker-api-calls-in-version-1-4-0required-environment-variable-url-environment-variable-for-request-headers-environment-variable-partner-key-client-account-with-at-least-one-featured-listingtests-are-in-this-order-as-variables-such-as-listing-id-and-approved-mls-are-passed-to-subsequent-api-calls-
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Supplemental
+  x-api-slug: partnersaggregatedsupplemental-get
+  description: Get a list of supplemental (non-MLS) properties.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
   humanURL: http://www.idxbroker.com
   baseURL: https://example.com//
   tags: Real Estate, API Provider, Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsupplemental-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsupplemental-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedagents-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleads-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedleadtraffic-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedlistingstatus-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedproperties-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsearches-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsoldpending-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/partnersaggregatedsupplemental-get-openapi.md
-- name: IDX Broker
-  x-api-slug: idx-broker
-  description: Based in Eugene, OR, IDX, LLC is nationally known as a leading provider
-    of real estate search applications. IDX, LLC actively manages more than $2 trillion
-    worth of active listing data from more than 600 individual Multiple Listings Services
-    (MLS). IDX, LLC provides integrated IDX software, customizable listing search
-    utilities and lead management tools for real estate based websites (IDX Broker).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
-  humanURL: http://www.idxbroker.com
-  baseURL: https://example.com//
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/idx-broker/openapi.md
 x-common:
 - type: x-blog
   url: https://blog.idxbroker.com/

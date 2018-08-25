@@ -11,27 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/filestack/apis.md
 specificationVersion: "0.14"
-apis:
-- name: FilePicker
-  x-api-slug: filepicker
-  description: Filepicker.io is a tool that allows users to access and upload their
-    content to the cloud both from their local machines as well as online. Developers
-    can use the API to integrate access to cloud servcies within their applications.
-    The Javascript API gives developers the ability to customize the user experience
-    for both choosing and saving files. The Pick files functionality allows users
-    to make their upload forms handle local uploads as well as uploads from services
-    such as Dropbox and Facebook and devices such as webcams. The Save files functionality
-    allows users to save content directly to Dropbox, Google drive, Evernote, or even
-    as an email attachment, rather than downloading it to their local device. The
-    API uses JavaScript protocol. A RESTful interface is available for working with
-    Filepicker.io URLs.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1261-filestack.jpg
-  humanURL: https://www.filestack.com
-  baseURL: https://www.filepicker.io/api///api
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/filestack/openapi.md
+apis: []
 x-common:
 - type: x-application-management
   url: https://developers.filepicker.io/apps/AWgrH34upQryUoYQAclcwz/details

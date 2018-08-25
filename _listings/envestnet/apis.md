@@ -11,18 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/envestnet/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Crunch Base
-  x-api-slug: crunch-base
-  description: Build and transform financial apps and services with access to financial
-    data through our APIs and digital solutions for banks, developers, and innovators.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1691-yodlee.jpg
-  humanURL: http://www.yodlee.com/
-  baseURL: https://api.crunchbase.com//v/3
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/envestnet/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://entertainment.express.api.gallery.streamdata.io

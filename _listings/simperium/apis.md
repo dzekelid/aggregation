@@ -10,17 +10,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/simperium/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Simperium
-  x-api-slug: simperium
-  description: Sync instantly across iOS, Android, the web and more.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1234-simperium.jpg
-  humanURL: https://simperium.com/
-  baseURL: https:///
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/simperium/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: https://simperium.com/

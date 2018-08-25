@@ -11,18 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/kloudless/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Kloudless
-  x-api-slug: kloudless
-  description: The last set of APIs youll ever need to build apps that integrate File
-    Storage, CRM, Email, Calendar, Marketing, ITSM, and more. Get started for free!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1700-kloudless.jpg
-  humanURL: https://kloudless.com/
-  baseURL: https:///
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/kloudless/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://api.kloudless.com/services/

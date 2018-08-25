@@ -11,18 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/diffbot/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Diffbot
-  x-api-slug: diffbot
-  description: Never write another web scraper. Diffbot automates web data extraction
-    from any website using AI, computer vision, &amp; machine learning.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/181-diffbot.jpg
-  humanURL: http://www.diffbot.com/our-apis/follow/
-  baseURL: https:////
-  tags: Aggregation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/diffbot/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://api.diffbot.com
