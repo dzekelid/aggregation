@@ -8,188 +8,622 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Aggregation
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Compute Engine API Get Addresses
+- name: Google Compute Engine API
   x-api-slug: google-compute-engine-api
-  description: Retrieves an aggregated list of addresses.
+  description: creates-and-runs-virtual-machines-on-google-cloud-platform-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
-  baseURL: ://www.googleapis.com//compute/v1/projects//{project}/aggregated/addresses
-  tags: Address,Aggregation
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-openapi.md
-- name: Google Compute Engine API Get Autoscalers
+- name: Google Compute Engine API
   x-api-slug: google-compute-engine-api
-  description: Retrieves an aggregated list of autoscalers.
+  description: creates-and-runs-virtual-machines-on-google-cloud-platform-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
-  baseURL: ://www.googleapis.com//compute/v1/projects//{project}/aggregated/autoscalers
-  tags: Autoscaler,Aggregation
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-openapi.md
-- name: Google Compute Engine API Get Backend services
+- name: Google Compute Engine API
   x-api-slug: google-compute-engine-api
-  description: Retrieves the list of all BackendService resources, regional and global,
-    available to the specified project.
+  description: creates-and-runs-virtual-machines-on-google-cloud-platform-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
-  baseURL: ://www.googleapis.com//compute/v1/projects//{project}/aggregated/backendServices
-  tags: Backend Service,Aggregation
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-openapi.md
-- name: Google Compute Engine API Get Disk Type
+- name: Google Compute Engine API
   x-api-slug: google-compute-engine-api
-  description: Retrieves an aggregated list of disk types.
+  description: creates-and-runs-virtual-machines-on-google-cloud-platform-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
-  baseURL: ://www.googleapis.com//compute/v1/projects//{project}/aggregated/diskTypes
-  tags: Disk,Aggregation
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-openapi.md
-- name: Google Compute Engine API Get Disks
+- name: Google Compute Engine API
   x-api-slug: google-compute-engine-api
-  description: Retrieves an aggregated list of persistent disks.
+  description: creates-and-runs-virtual-machines-on-google-cloud-platform-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
-  baseURL: ://www.googleapis.com//compute/v1/projects//{project}/aggregated/disks
-  tags: Disk,Aggregation
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-openapi.md
-- name: Google Compute Engine API Get Forwarding Rules
+- name: Google Compute Engine API
   x-api-slug: google-compute-engine-api
-  description: Retrieves an aggregated list of forwarding rules.
+  description: creates-and-runs-virtual-machines-on-google-cloud-platform-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
-  baseURL: ://www.googleapis.com//compute/v1/projects//{project}/aggregated/forwardingRules
-  tags: Forwarding Rules,Aggregation
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedforwardingrules-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedforwardingrules-get-openapi.md
-- name: Google Compute Engine API Get Instance Groups
+- name: Google Compute Engine API
   x-api-slug: google-compute-engine-api
-  description: Retrieves the list of instance groups and sorts them by zone.
+  description: creates-and-runs-virtual-machines-on-google-cloud-platform-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
-  baseURL: ://www.googleapis.com//compute/v1/projects//{project}/aggregated/instanceGroups
-  tags: Instance Group,Aggregation
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedforwardingrules-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedforwardingrules-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstancegroups-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstancegroups-get-openapi.md
-- name: Google Compute Engine API Get Instances
+- name: Google Compute Engine API
   x-api-slug: google-compute-engine-api
-  description: Retrieves aggregated list of instances.
+  description: creates-and-runs-virtual-machines-on-google-cloud-platform-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
-  baseURL: ://www.googleapis.com//compute/v1/projects//{project}/aggregated/instances
-  tags: Instance,Aggregation
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedforwardingrules-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedforwardingrules-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstancegroups-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstancegroups-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstances-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstances-get-openapi.md
-- name: Google Compute Engine API Get Machine Types
+- name: Google Compute Engine API
   x-api-slug: google-compute-engine-api
-  description: Retrieves an aggregated list of machine types.
+  description: creates-and-runs-virtual-machines-on-google-cloud-platform-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
-  baseURL: ://www.googleapis.com//compute/v1/projects//{project}/aggregated/machineTypes
-  tags: Machine,Aggregation
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedforwardingrules-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedforwardingrules-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstancegroups-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstancegroups-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstances-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstances-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedmachinetypes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedmachinetypes-get-openapi.md
-- name: Google Compute Engine API Get Operations
+- name: Google Compute Engine API
   x-api-slug: google-compute-engine-api
-  description: Retrieves an aggregated list of all operations.
+  description: creates-and-runs-virtual-machines-on-google-cloud-platform-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
-  baseURL: ://www.googleapis.com//compute/v1/projects//{project}/aggregated/operations
-  tags: Operation,Aggregation
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedforwardingrules-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedforwardingrules-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstancegroups-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstancegroups-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstances-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstances-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedmachinetypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedmachinetypes-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedoperations-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedoperations-get-openapi.md
-- name: Google Compute Engine API Get Routers
+- name: Google Compute Engine API
   x-api-slug: google-compute-engine-api
-  description: Retrieves an aggregated list of routers.
+  description: creates-and-runs-virtual-machines-on-google-cloud-platform-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
-  baseURL: ://www.googleapis.com//compute/v1/projects//{project}/aggregated/routers
-  tags: Router,Aggregation
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedforwardingrules-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedforwardingrules-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstancegroups-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstancegroups-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstances-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstances-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedmachinetypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedmachinetypes-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedoperations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedoperations-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedrouters-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedrouters-get-openapi.md
-- name: Google Compute Engine API Get Subnetworks
+- name: Google Compute Engine API
   x-api-slug: google-compute-engine-api
-  description: Retrieves an aggregated list of subnetworks.
+  description: creates-and-runs-virtual-machines-on-google-cloud-platform-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
-  baseURL: ://www.googleapis.com//compute/v1/projects//{project}/aggregated/subnetworks
-  tags: Subnetwork,Aggregation
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedforwardingrules-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedforwardingrules-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstancegroups-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstancegroups-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstances-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstances-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedmachinetypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedmachinetypes-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedoperations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedoperations-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedrouters-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedrouters-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedsubnetworks-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedsubnetworks-get-openapi.md
-- name: Google Compute Engine API Get Target Instances
+- name: Google Compute Engine API
   x-api-slug: google-compute-engine-api
-  description: Retrieves an aggregated list of target instances.
+  description: creates-and-runs-virtual-machines-on-google-cloud-platform-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
-  baseURL: ://www.googleapis.com//compute/v1/projects//{project}/aggregated/targetInstances
-  tags: Target Instance,Aggregation
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedforwardingrules-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedforwardingrules-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstancegroups-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstancegroups-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstances-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstances-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedmachinetypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedmachinetypes-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedoperations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedoperations-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedrouters-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedrouters-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedsubnetworks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedsubnetworks-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedtargetinstances-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedtargetinstances-get-openapi.md
-- name: Google Compute Engine API Get Target Pools
+- name: Google Compute Engine API
   x-api-slug: google-compute-engine-api
-  description: Retrieves an aggregated list of target pools.
+  description: creates-and-runs-virtual-machines-on-google-cloud-platform-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
-  baseURL: ://www.googleapis.com//compute/v1/projects//{project}/aggregated/targetPools
-  tags: Target Pools,Aggregation
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedforwardingrules-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedforwardingrules-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstancegroups-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstancegroups-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstances-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstances-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedmachinetypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedmachinetypes-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedoperations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedoperations-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedrouters-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedrouters-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedsubnetworks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedsubnetworks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedtargetinstances-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedtargetinstances-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedtargetpools-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedtargetpools-get-openapi.md
-- name: Google Compute Engine API Get Target VPN Gateways
+- name: Google Compute Engine API
   x-api-slug: google-compute-engine-api
-  description: Retrieves an aggregated list of target VPN gateways.
+  description: creates-and-runs-virtual-machines-on-google-cloud-platform-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
-  baseURL: ://www.googleapis.com//compute/v1/projects//{project}/aggregated/targetVpnGateways
-  tags: Target VPN Gateway,Aggregation
+  baseURL: ://www.googleapis.com//compute/v1/projects
+  tags: Compute, Cloud, Google APIs, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedautoscalers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedbackendservices-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisktypes-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregateddisks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedforwardingrules-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedforwardingrules-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstancegroups-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstancegroups-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstances-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedinstances-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedmachinetypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedmachinetypes-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedoperations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedoperations-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedrouters-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedrouters-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedsubnetworks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedsubnetworks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedtargetinstances-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedtargetinstances-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedtargetpools-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedtargetpools-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/projectaggregatedtargetvpngateways-get-postman.md
   - type: x-openapi-spec
@@ -208,6 +642,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-compute-engine/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.cloud.vision.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.compute.engine.stack.network
 - type: x-code
   url: https://cloud.google.com/compute/docs/api/libraries
 - type: x-documentation
