@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opend
 x-kinRank: "7"
 x-alexaRank: "323884"
 tags: Aggregation
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/opendatasoft/apis.md
 specificationVersion: "0.14"
 apis:
@@ -22,7 +22,7 @@ apis:
   humanURL: http://opendatasoft.com
   baseURL: https://public.opendatasoft.com//api/v2
   tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
-    Service API, Relative StreamRank, Cities, Streams
+    Service API, Relative StreamRank, Streams, Cities
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/opendatasoft/sourceaggregates-get-postman.md
@@ -36,7 +36,7 @@ apis:
   humanURL: http://opendatasoft.com
   baseURL: https://public.opendatasoft.com//api/v2
   tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
-    Service API, Relative StreamRank, Cities, Streams
+    Service API, Relative StreamRank, Streams, Cities
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/opendatasoft/sourcedatasetsdataset-idaggregates-get-postman.md
@@ -50,7 +50,7 @@ apis:
   humanURL: http://opendatasoft.com
   baseURL: https://public.opendatasoft.com//api/v2
   tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
-    Service API, Relative StreamRank, Cities, Streams
+    Service API, Relative StreamRank, Streams, Cities
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/opendatasoft/sourceaggregates-get-postman.md
@@ -64,12 +64,40 @@ apis:
   humanURL: http://opendatasoft.com
   baseURL: https://public.opendatasoft.com//api/v2
   tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
-    Service API, Relative StreamRank, Cities, Streams
+    Service API, Relative StreamRank, Streams, Cities
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/opendatasoft/sourcedatasetsdataset-idaggregates-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/opendatasoft/sourcedatasetsdataset-idaggregates-get-openapi.md
+- name: OpenDataSoft - Get Source Datasets Dataset Aggregates
+  x-api-slug: sourcedatasetsdataset-idaggregates-get
+  description: Compute aggregations from dataset records and return a list of each
+    aggregate indexed by their names.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
+  humanURL: http://opendatasoft.com
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Streams, Cities
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/opendatasoft/sourcedatasetsdataset-idaggregates-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/opendatasoft/sourcedatasetsdataset-idaggregates-get-openapi.md
+- name: OpenDataSoft - Get Source Aggregates
+  x-api-slug: sourceaggregates-get
+  description: Compute aggregations from catalog and return a list of each aggregate
+    indexed by their names.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
+  humanURL: http://opendatasoft.com
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Streams, Cities
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/opendatasoft/sourceaggregates-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/opendatasoft/sourceaggregates-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://opencorporates.api.gallery.streamdata.io

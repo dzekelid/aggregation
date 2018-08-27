@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Google Compute Engine
 x-complete: 1
@@ -454,4 +453,3 @@ paths:
       tags:
       - Target VPN Gateway
       - Aggregation
----

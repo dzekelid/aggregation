@@ -10,11 +10,24 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Aggregation
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-fit/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Fitness - Get Aggregate Data
+  x-api-slug: useriddatasetaggregate-post
+  description: Aggregates data of a certain type or stream into buckets divided by
+    a given type of boundary. Multiple data sets of multiple types and from multiple
+    sources can be aggreated into exactly one bucket type per request.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-fit.jpg
+  humanURL: https://developers.google.com/fit/overview
+  baseURL: ://www.googleapis.com//fitness/v1/users
+  tags: Fitness, Wearables, Google APIs, Stack Network, API Service Provider, API
+    Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/google-fit/useriddatasetaggregate-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.drive.api.gallery.streamdata.io

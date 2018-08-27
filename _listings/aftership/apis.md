@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/10212-afte
 x-kinRank: "8"
 x-alexaRank: "4324"
 tags: Aggregation
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aggregation/master/_listings/aftership/apis.md
 specificationVersion: "0.14"
 apis: []
